@@ -2,7 +2,14 @@
 
 Ứng dụng web CRUD quản lý **nhà cung cấp (Supplier)** và **sản phẩm (Product)**, được xây dựng theo kiến trúc **MVC**.
 
-##  Tính năng
+## Công nghệ sử dụng
+- Node.js
+- Express
+- MongoDBMongoose
+- EJS
+- Bootstrap 5
+## Tính năng
+
 ### Supplier
 - Thêm mới nhà cung cấp
 - Xem danh sách nhà cung cấp
