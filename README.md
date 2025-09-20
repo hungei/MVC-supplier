@@ -165,7 +165,7 @@ This project is licensed under the ISC License - see the package.json file for d
 
 ## 👥 Author
 
-- **Author** - [Your GitHub Profile](https://github.com/hungei)
+- **Author** -(https://github.com/hungei)
 
 ## 🐛 Issues
 
