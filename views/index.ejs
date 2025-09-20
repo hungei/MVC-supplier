@@ -1,0 +1,73 @@
+<%- include('partials/header', { title: "Home - MVC Supplier System" }) %>
+
+<div class="homepage-hero">
+  <div class="container">
+    <h1><i class="fas fa-warehouse me-3"></i>MVC Supplier Management System</h1>
+    <p>Quản lý nhà cung cấp và sản phẩm một cách hiệu quả</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row feature-cards">
+    <div class="col-md-6 mb-4">
+      <div class="card feature-card">
+        <div class="card-body">
+          <div class="feature-icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <h5 class="card-title">Quản lý Nhà cung cấp</h5>
+          <p class="card-text">Thêm, sửa, xóa và xem danh sách các nhà cung cấp. Quản lý thông tin liên lạc và địa chỉ.</p>
+          <a href="/suppliers" class="btn btn-primary">
+            <i class="fas fa-arrow-right me-2"></i>Xem Suppliers
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-6 mb-4">
+      <div class="card feature-card">
+        <div class="card-body">
+          <div class="feature-icon">
+            <i class="fas fa-box"></i>
+          </div>
+          <h5 class="card-title">Quản lý Sản phẩm</h5>
+          <p class="card-text">Thêm, sửa, xóa và xem danh sách sản phẩm. Quản lý giá cả và phân loại sản phẩm.</p>
+          <a href="/products" class="btn btn-success">
+            <i class="fas fa-arrow-right me-2"></i>Xem Products
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0"><i class="fas fa-info-circle me-2"></i>Thông tin hệ thống</h5>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <i class="fas fa-code feature-icon"></i>
+              <h6>Node.js + Express</h6>
+              <p class="text-muted">Backend framework mạnh mẽ</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <i class="fas fa-database feature-icon"></i>
+              <h6>MongoDB + Mongoose</h6>
+              <p class="text-muted">Database NoSQL linh hoạt</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <i class="fas fa-eye feature-icon"></i>
+              <h6>EJS Templates</h6>
+              <p class="text-muted">View engine dễ sử dụng</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,20 @@
+<%- include('../partials/header', { title: "Create Supplier" }) %>
+
+<form method="POST" action="/suppliers/new" class="card p-3">
+  <div class="mb-3">
+    <label>Name</label>
+    <input name="name" class="form-control" required />
+  </div>
+  <div class="mb-3">
+    <label>Address</label>
+    <input name="address" class="form-control" required />
+  </div>
+  <div class="mb-3">
+    <label>Phone</label>
+    <input name="phone" class="form-control" required />
+  </div>
+  <button type="submit" class="btn btn-success">Save</button>
+  <a href="/suppliers" class="btn btn-secondary">Cancel</a>
+</form>
+
+<%- include('../partials/footer') %>
