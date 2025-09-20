@@ -127,28 +127,7 @@ The application uses:
 - **Bootstrap 5** for responsive design and styling
 - **CSS** custom styles in `/public/css/style.css`
 
-## 🔧 Configuration
 
-
-### Database Configuration
-The application uses environment variables for database configuration. Create a `.env` file:
-```env
-MONGODB_URI=mongodb://localhost:27017/your_database_name
-PORT=3000
-```
-
-Then update `app.js` to use environment variables:
-```javascript
-require('dotenv').config();
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/supplier_db");
-```
-
-### Port Configuration
-The application uses environment variables for port configuration:
-```javascript
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`✅ Server running at http://localhost:${PORT}`));
-```
 
 ## � Security Best Practices
 
@@ -186,7 +165,7 @@ This project is licensed under the ISC License - see the package.json file for d
 
 ## 👥 Author
 
-- **Author** - [Your GitHub Profile](https://github.com/your-username)
+- **Author** - [Your GitHub Profile](https://github.com/hungei)
 
 ## 🐛 Issues
 
